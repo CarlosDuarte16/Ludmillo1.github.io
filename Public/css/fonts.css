@@ -1,0 +1,20 @@
+@font-face {
+    font-family: font1;
+    src: url(/Public/assets/fonts/font1/font1.ttf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(/Public/assets/fonts/font2.ttf);
+}
+
+
+@font-face {
+    font-family: font4;
+    src: url(/Public/assets/fonts/font4.otf);
+}
+
+@font-face {
+    font-family: font3;
+    src: url(/Public/assets/fonts/font3.ttf);
+}

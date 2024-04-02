@@ -1,0 +1,396 @@
+body {
+    background-image: url(/Public/assets/image/preview.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.cabeçalho {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabeçalho .left {
+    display: flex;
+}
+
+.cabeçalho .left img {
+    width: auto;
+    height: 50px;
+    margin-left: 15px;
+    transform: scale(1.2);
+   
+}
+
+.cabeçalho .left h4 {
+    color: aliceblue;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 17px;
+    font-family: font1;
+}
+
+.cabeçalho .right {
+  margin-top: 10px;
+}
+
+input {
+    border-radius: 20px;
+    width: 300px ;
+    margin-top: 10px;
+    height: 25px;
+}
+
+.cabeçalho .right img {
+    margin-left: 10px;
+    margin-right: 20px;
+    width: auto;
+    height: 30px;
+    transition: transform 0.5s ease;    
+}
+
+
+.cabeçalho .right .imagem:hover {
+    transform: scale(1.2);
+}
+
+
+.Pesquisar img {
+    width: auto;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    display: flex;
+    margin-left: 90px;
+    justify-content: center;
+
+}
+
+.container .block {
+    flex-direction: column;
+    width: 300PX;
+    height: 400PX;
+    box-shadow: 5px 5PX 10PX;
+    align-items:center ;
+    justify-content:center;
+    margin-right: 80px;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 150px;
+    border-radius: 20PX;
+    
+}
+
+.container .block h1 {
+    font-family: font3;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: left;
+    margin-left:15px ;
+}
+
+.container .block .info {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 5px;
+    text-align: center;
+    align-items: center;
+    font-family:font3 ;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.container .block .info h6 {
+    font-size: 12px;
+
+}
+
+.container .block .info h5 {
+    margin-right: 80px;
+    margin-top:2px;
+    font-size: 12px;
+}
+
+.container .block p {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight: 800px;
+    color: aliceblue;
+    margin-top: 40px;
+    font-size: 22px;
+    text-align: left;
+    margin-left: 30px;
+    transition: transform 0.5s ease; 
+}
+
+.container .block a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    line-height: 100px; 
+    margin-right: 180px;  
+    text-decoration: none;
+    color: brown; 
+    transition: transform 0.5s ease;
+    background-color: aliceblue;
+    padding: 3px 5px;
+    border-radius: 32px;
+}
+
+.container .block a:hover {
+    transform: scale(1.2);
+} 
+
+.container .block p:hover {
+    transform: scale(1.2); /* Aumenta o tamanho do link em 20% ao passar o mouse */
+}
+
+.container1 .block p:hover {
+    transform: scale(1.2); /* Aumenta o tamanho do link em 20% ao passar o mouse */
+}
+
+
+
+.container .block img {
+    width: auto;
+    height: 180pX;
+    transition: transform 0.5s ease; 
+
+   
+}
+
+.container .block .image:hover {
+    transform: scale(1.2); /* Aumenta o tamanho da imagem em 20% ao passar o mouse */
+}
+
+.container .block .imagem img {
+    width: 100%;
+    height: auto;
+}
+
+.container1 { 
+    display: flex;
+    margin-left: 90px;  
+}
+
+.container1 .block {
+    flex-direction: column;
+    width: 300PX;
+    height: 400PX;
+    box-shadow: 5px 5PX 10PX;
+    align-items:center ;
+    justify-content:center;
+    margin-right: 80px;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 150px;
+    border-radius: 20PX;
+}
+
+.container1 .block h1 {
+    font-family: font3;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left:15px ;
+    text-align: left;
+}
+
+.container1 .block .info {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 5px;
+    text-align: center;
+    align-items: center;
+    font-family: font3;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.container1 .block .info h6 {
+    font-size: 12px;
+
+}
+
+.container1 .block .info h5 {
+    margin-right: 80px;
+    margin-top:2px;
+    font-size: 12px;
+}
+
+.container1 .block p {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight: 800px;
+    color: aliceblue;
+    margin-top: 40px;
+    font-size: 22px;
+    text-align: left;
+    margin-left: 30px;
+    transition: transform 0.5s ease; 
+    
+}
+
+.container1 .block a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    line-height: 100px; 
+    margin-right: 190px;   
+    text-decoration: none;
+    color: brown;
+    transition: transform 0.5s ease;
+    background-color: aliceblue;
+    padding: 2px 10px;
+    border-radius: 32px;
+    align-items: flex-start;
+}
+
+
+
+.container1 .block img {
+    width: auto;
+    height: 180pX;
+    transition: transform 0.5s ease; 
+}
+
+.container1 .block .image:hover {
+    transform: scale(1.2); /* Aumenta o tamanho da imagem em 20% ao passar o mouse */
+}
+
+.container .block h4 {
+    color: aliceblue;
+    margin-top: -30px;
+    text-align:right;
+    margin-right: 20px;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.container .block h4:hover {
+    color: brown;
+        
+}
+
+.container1 .block h4:hover {
+    color: brown;
+}
+
+.container1 .block h4 {
+    color: aliceblue;
+    margin-top: -30px;
+    text-align:right;
+    margin-right: 20px;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.opala .infopala h1 {
+    color: aliceblue;
+    margin-top: 60px;
+    margin-left: 100px;
+    font-size: 40px;
+    font-family:font2 ;
+}
+
+.opala .infopala em {
+    margin-left: 110px;
+    color: antiquewhite;
+    font-weight: bolder;
+    font-family: font3;
+}
+
+.opala .infopala p {
+    color: aliceblue;
+    margin-left: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.opala .infopala pre {
+    background-color: aliceblue;
+    color: #000;
+    width: 90px;
+    height: 15px;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-family: font2;
+    transition: transform 0.5s ease;
+    border-radius: 15px;
+    
+} 
+
+.opala .infopala pre:hover {
+    transform: scale(1.2);
+}
+
+.opala .infopala .cid {
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-top: 35px;
+}
+
+.opala .imgopala {
+    display: flex;
+    box-shadow: 20px 20px 50px;
+    margin-top: 20px;
+}
+
+.opala .opalaimg1 {
+    margin-left: 80px;
+    margin-top: 40px;
+    width: auto;
+    height: 300px;
+    transition: transform 0.5s ease; 
+
+}
+
+.opala .opalaimg1:hover {
+     transform: scale(1.2);
+
+}
+
+.opala .opalaimg2 {
+    width: auto;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 180px;
+    transition: transform 0.5s ease; 
+}
+
+.opala .opalaimg2:hover {
+    transform: scale(1.2);
+}
+
+.opala .infopala {
+    display: flex;
+
+}
+
+.opala .infopala .valor {
+    margin-left: 200px;
+    margin-top: 150px;
+    font-size: 40px;
+    color: aliceblue;
+    background-color: red;
+    padding: 20px;
+    width: 260px;
+    height: 60px;
+    border-radius: 32px;
+    font-family: font3;
+    text-align: center;
+    transition: transform 0.5s ease;
+}
+
+.opala .infopala .valor:hover {
+    transform: scale(1.2);
+
+}
